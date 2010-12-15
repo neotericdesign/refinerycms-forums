@@ -1,0 +1,18 @@
+<% content_for :title, @topic.name %>
+
+<% content_for :content do %>
+  <p>
+    <%= link_to 'Start a discussion', new_topic_discussion_path(@topic) %>
+  </p>
+  <% if (@discussions = @topic.discussions).any? -%>
+  <ul id="discussions">
+    <% @discussions.each do |discussion| -%>  
+      <li><%= link_to discussion.title, topic_discussion_path(@topic, discussion) %>
+    <% end -%>
+  </ul>
+  <% else -%>
+    <p>There are no discussions posted in this topic yet.</p>
+  <% end -%>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

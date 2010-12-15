@@ -1,0 +1,24 @@
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    discussion_replies:
+      title: Discussion Replies
+  admin:
+    discussion_replies:
+      index:
+        title: Discussion Replies
+        create_new: Add New Discussion Reply
+        reorder: Reorder Discussion Replies
+        reorder_done: Done Reordering Discussion Replies
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Discussion Replies yet. Click "Add New Discussion Reply" to add your first discussion reply.
+      discussion_reply:
+        view_live_html: View this discussion reply live <br/><em>(opens in a new window)</em>
+        edit: Edit this discussion reply
+        delete: Remove this discussion reply forever
+  discussion_replies:
+    show:
+      other: Other Discussion Replies

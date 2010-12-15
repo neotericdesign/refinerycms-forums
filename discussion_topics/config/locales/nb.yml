@@ -1,0 +1,20 @@
+nb:
+  plugins:
+    discussion_topics:
+      title: Discussion Topics
+  admin:
+    discussion_topics:
+      index:
+        title: Discussion Topics
+        create_new: Lag en ny Discussion Topic
+        reorder: Endre rekkefølgen på Discussion Topics
+        reorder_done: Ferdig å endre rekkefølgen Discussion Topics
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Discussion Topics enda. Klikk på "Lag en ny Discussion Topic" for å legge til din første discussion topic.
+      discussion_topic:
+        view_live_html: Vis hvordan denne discussion topic ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne discussion topic
+        delete: Fjern denne discussion topic permanent
+  discussion_topics:
+    show:
+      other: Andre Discussion Topics

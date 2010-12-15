@@ -1,0 +1,20 @@
+nb:
+  plugins:
+    discussions:
+      title: Discussions
+  admin:
+    discussions:
+      index:
+        title: Discussions
+        create_new: Lag en ny Discussion
+        reorder: Endre rekkefølgen på Discussions
+        reorder_done: Ferdig å endre rekkefølgen Discussions
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Discussions enda. Klikk på "Lag en ny Discussion" for å legge til din første discussion.
+      discussion:
+        view_live_html: Vis hvordan denne discussion ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne discussion
+        delete: Fjern denne discussion permanent
+  discussions:
+    show:
+      other: Andre Discussions

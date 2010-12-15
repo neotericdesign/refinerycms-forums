@@ -1,0 +1,20 @@
+nb:
+  plugins:
+    discussion_replies:
+      title: Discussion Replies
+  admin:
+    discussion_replies:
+      index:
+        title: Discussion Replies
+        create_new: Lag en ny Discussion Reply
+        reorder: Endre rekkefølgen på Discussion Replies
+        reorder_done: Ferdig å endre rekkefølgen Discussion Replies
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Discussion Replies enda. Klikk på "Lag en ny Discussion Reply" for å legge til din første discussion reply.
+      discussion_reply:
+        view_live_html: Vis hvordan denne discussion reply ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+        edit: Rediger denne discussion reply
+        delete: Fjern denne discussion reply permanent
+  discussion_replies:
+    show:
+      other: Andre Discussion Replies

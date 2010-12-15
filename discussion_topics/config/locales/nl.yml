@@ -1,0 +1,20 @@
+nl:
+  plugins:
+    discussion_topics:
+      title: Discussion Topics
+  admin:
+    discussion_topics:
+      index:
+        title: Discussion Topics
+        create_new: Maak een nieuwe Discussion Topic
+        reorder: Wijzig de volgorde van de Discussion Topics
+        reorder_done: Klaar met het wijzingen van de volgorde van de Discussion Topics
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Discussion Topics. Druk op 'Maak een nieuwe Discussion Topic' om de eerste aan te maken.
+      discussion_topic:
+        view_live_html: Bekijk deze discussion topic op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze discussion topic
+        delete: Verwijder deze discussion topic voor eeuwig
+  discussion_topics:
+    show:
+      other: Andere Discussion Topics

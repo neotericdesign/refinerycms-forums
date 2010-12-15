@@ -1,0 +1,11 @@
+<% content_for :content do %>
+  <ul id="discussion_topics">
+    <% @topics.each do |topic| %>
+      <li>
+        <%= link_to topic.name, topic_path(topic) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

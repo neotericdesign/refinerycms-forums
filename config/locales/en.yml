@@ -1,0 +1,45 @@
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    forums:
+      title: Discussions
+    discussions:
+      title: Discussions
+    forum_topics:
+      title: Discussion Topics
+    discussion_topics:
+      title: Discussion Topics
+  admin:
+    discussions:
+      index:
+        title: Discussions
+        create_new: Add New Discussion
+        reorder: Reorder Discussions
+        reorder_done: Done Reordering Discussions
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Discussions yet. Click "Add New Discussion" to add your first discussion.
+      discussion:
+        view_live_html: View this discussion live <br/><em>(opens in a new window)</em>
+        edit: Edit this discussion
+        delete: Remove this discussion forever
+    discussion_topics:
+      index:
+        title: Discussion Topics
+        create_new: Add New Discussion Topic
+        reorder: Reorder Discussion Topics
+        reorder_done: Done Reordering Discussion Topics
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Discussion Topics yet. Click "Add New Discussion Topic" to add your first discussion topic.
+      discussion_topic:
+        view_live_html: View this discussion topic live <br/><em>(opens in a new window)</em>
+        edit: Edit this discussion topic
+        delete: Remove this discussion topic forever
+  discussions:
+    show:
+      other: Other Discussions
+  discussion_topics:
+    show:
+      other: Other Discussion Topics

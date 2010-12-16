@@ -1,0 +1,24 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    discussions:
+      title: Discussions
+  admin:
+    discussions:
+      index:
+        title: Discussions
+        create_new: CREATE NEW Discussion
+        reorder: REORDR Discussions
+        reorder_done: DUN REORDERIN Discussions
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Discussions YET. CLICK "CREATE NEW Discussion" 2 ADD UR FURST discussion.
+      discussion:
+        view_live_html: VIEW DIS discussion LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS discussion
+        delete: REMOOV DIS discussion FOREVR
+  discussions:
+    show:
+      other: OTHR Discussions

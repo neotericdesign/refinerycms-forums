@@ -1,0 +1,27 @@
+<% form_for @discussion, :url => topic_discussions_path(@topic, @discussion) do |f| -%>
+  <%= render :partial => "/shared/admin/error_messages", :locals => {
+    :object => @discussion,
+    :include_object_name => true
+  } %>
+  
+  <div class='field'>
+    <%= f.label :title -%>
+    <%= f.text_field :title, :class => 'larger widest' -%>
+  </div>
+  
+  <div class='field'>
+    <%= f.label :topic -%>
+    <%= collection_select(:discussion, :topic_id, @topics, :id, :name) -%>
+  </div>
+  
+  <div class='field'>
+    <%= f.label :body -%>
+    <%= f.text_area :body, :rows => 20, :class => 'wymeditor widest' -%>
+  </div>
+  
+  <div class='field'>
+    <p><%= f.check_box :terms -%> <%= f.label :terms, 'I accept the terms for posting on the Chainlink', :class => 'stripped' -%></p>
+  </div>
+  
+  <%= f.submit 'Post Discussion' %>
+<% end -%>
